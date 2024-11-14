@@ -1,0 +1,16 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.secondpage{
+    background-color:rgb(18, 206, 249) ;
+    background-position: 100%;
+    background-size: cover;
+    height:100vh;
+    animation: move 5s;
+}
+@keyframes move{
+    from{left:10%;}
+    to{right:-90%;}
+}

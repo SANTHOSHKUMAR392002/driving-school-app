@@ -1,0 +1,121 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+.dayi-section{
+    padding-top:50px;
+}
+.dayi-container{
+    padding-left:10px;
+}
+.day-section{
+    padding:20px;
+    background-color:rgb(3, 207, 252) ;
+    color: white;
+}
+.day-section{
+    text-align: center;
+}
+.driver-section{
+    width:10%;
+    padding-top:100px;
+}
+.driver-section h3{
+    text-align: center;
+    width:100%;
+}
+.driver-info-section{
+    width:100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:50px;
+}
+.driver-contact{
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #c4c5c5;
+    width: 500px;
+    border-radius:20px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap:80px;
+    cursor: pointer;
+
+}
+.driver-img img{
+    border-radius:50%;
+    height:50px;
+}
+.driver-contact-card2{
+    padding: 50px;
+    box-shadow: 0px 0px 10px #cfcccc;
+    width: 500px;
+    border-radius:20px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap:80px;
+    cursor: pointer;
+
+}
+.learn-target-cardt{
+    font-size:70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height:200px;
+    background-color:rgb(3, 207, 252) ;
+    box-shadow: 0px 0px 10px #cfcccc;
+    border-radius: 30px 30px 0px 0px;
+    color:white;
+}
+.learn-target-cardb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100px;
+    width:250px;
+    box-shadow: 0px 0px 10px #cfcccc;
+    border-radius: 0px 0px 30px 30px;
+
+}
+.learn-target-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    gap:50px;
+    cursor: pointer;
+
+}
+.classes-tracker{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    gap:50px;
+    padding-bottom:50px;
+    cursor: pointer;
+    
+}
+.classes-tracker h2{
+    background-color:rgb(3, 207, 252);
+    width:500px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius:5px;
+
+}

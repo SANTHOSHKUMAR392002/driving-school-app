@@ -1,0 +1,122 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+
+}
+.fifthpage-container{
+    display: flex;
+    padding-left:20px;
+    padding-top: 10px;
+}
+.fifthpage-image-section{
+    display: flex;
+    justify-content: center;
+}
+.fifthpage-image-section img{
+    height:600px;
+    padding: 100px 150px;
+}
+.fifthpage-heading h1{
+    font-size:40px;
+    font-family: "Montserrat",sans-serif;
+}
+.fifthpage-heading2 h1{
+    font-size:20px;
+}
+.phone-input{
+    display: flex;
+    align-items:center;
+    border: 1px solid #9d9d9f;
+    border-radius: 10px;
+}
+.phone-input input{
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    font-size:20px;
+    border: none;
+    outline: none;
+    width:300px;
+    padding:5px 25px 5px 25px ;
+    background:none;
+    overflow: hidden;
+}
+.otpf{
+    border: none;
+    outline: none;
+    background-color: #44b5fb8b;
+    padding:20px;
+    border-radius: 0px 9px 9px 0px;
+    color:#ffffff;
+}
+.otpt{
+    border: none;
+    outline: none;
+    background-color: #06c6fc;
+    padding:20px;
+    border-radius: 0px 9px 9px 0px;
+    color:#ffffff;
+}
+.fifthpage-heading2{
+    padding-top: 30px ;
+}
+.fiftpage-txt-container{
+    padding-top:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.fifthpage-leftside{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.fifthpage-rightside h4{
+    padding-top:10px;
+    font-family: "Montserrat",sans-serif;
+    color:#c3c2c4;
+}
+.input2{
+    border-radius: 10px;
+    width:300px;
+    border: 2px solid #9d9d9f;
+    padding:20px;
+    text-align: center;
+}
+.submit{
+    border-radius: 10px;
+    padding:10px 20px 20px 20px ;
+    background-color: #44b5fb8b;
+    width:auto;
+    border:1px solid #44b5fb8b;
+}
+.submits{
+    border-radius: 10px;
+    padding:10px 20px 20px 20px ;
+    background-color:#06c6fc;
+    width:auto;
+    border:1px solid #06c6fc;
+
+
+}
+.submit h4{
+    font-size:15px;
+    color:white;
+    text-align: center;
+}
+.submits h4{
+    font-size:15px;
+    color:white;
+    text-align: center;
+}
+.fifthpage-rightside{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.fifthpage-txt-container{
+    padding:150px;
+}

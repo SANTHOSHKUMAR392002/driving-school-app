@@ -1,0 +1,58 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.fourthpage{
+    display: flex;
+}
+.fourthpage-image-section{
+    width:50%;
+    display: flex;
+    align-items: center;
+
+}
+.fourthpage-img{
+    width:100%;
+    padding:100px 220px ;
+
+}
+.fourthpage-txts-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right:100px;
+}
+.fourthpage-headings-section h2{
+    font-size:40px;
+    color:rgb(3, 207, 252) ;
+}
+.fourthpage-contents-section h4{
+    color:#a9b8b9;
+}
+.fourthpage-leftside{
+    margin-top:20px;
+    padding:100px 30px 550px 50px;
+    background-color:rgb(3, 207, 252);
+    border-radius: 70px 0px 0px 70px;
+    position: relative;
+}
+.fourthpage-backbutton{
+    border-radius: 50%;
+    padding:70%;
+    position:absolute;
+    top:40%;
+    right:10%;
+    background-color:rgb(3, 207, 252);
+    border:1px solid rgb(18, 206, 249);
+}
+.fourthpage-frontbutton{
+    border-radius: 50%;
+    font-size:30px;
+    padding:30%;
+    position:absolute;
+    top:42%;
+    right:40%;
+    background-color:white;
+    border:1px solid rgb(18, 206, 249);
+}

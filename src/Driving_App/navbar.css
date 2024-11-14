@@ -1,0 +1,161 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .navlogo {
+    cursor: pointer;
+  }
+  
+  .nav_close {
+    right: -160px;
+  }
+  
+  header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 5px 13px;
+    color: #000000bf;
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+  
+  header nav ul li a:hover,
+  header nav ul li a.activeheader {
+    color: #fff;
+    background: var(--primary-new);
+  }
+  
+  .menu-toggle {
+    color: #000;
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  /* search bar  */
+  
+  .search-input {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    padding: 3px 35px 3px 6px;
+    color: #6c6c6c;
+    border-radius: 6px;
+    border: 1px solid var(--primary-new);
+    transition: all .4s;
+  }
+  
+  .search-input:focus {
+    border: 2px solid var(--primary-new);
+    outline: none;
+  }
+  
+  .search-btn {
+    background-color: transparent;
+    font-size: 18px;
+    padding: 6px 9px;
+    margin-left: -36px;
+    border: none;
+    color: #6c6c6c;
+    transition: all .4s;
+    z-index: 10;
+  }
+  
+  .search-btn:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    color: black;
+  }
+  
+  .search-btn:focus {
+    outline: none;
+    color: black;
+  }
+  
+  .nav_icon {
+    cursor: pointer;
+    color: var(--primary-new);
+  }
+  
+  /* user icon dropdown */
+  
+  .dropdown {
+    position: relative;
+  
+    &[open] .with-down-arrow::after {
+      content: "\e5c7";
+    }
+  
+    summary {
+      list-style: none;
+      display: inline-block;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+  
+    &.left ul {
+      left: 0;
+    }
+  
+    &.right ul {
+      right: 0;
+      top:40px;
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+      box-shadow: 0 0 10px #00000030;
+      min-width: max-content;
+      position: absolute;
+      top: 100%;
+      border-radius: 3px;
+      background-color: var(--primary-new);
+      z-index: 2;
+  
+      li {
+        list-style-type: none;
+        display: block;
+        /* If you use divider & borders, it's best to use top borders */
+        border-top: 1px solid #ccc;
+      }
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          padding: 10px 15px;
+          text-decoration: none;
+          line-height: 1;
+          color: #fff;
+          font-weight: 500;
+          gap: 5px;
+  
+          &:hover {
+            color: var(--primary-new);
+            background-color: #fff;
+          }
+        }
+      }
+  }

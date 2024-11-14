@@ -1,0 +1,211 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+.info-section{
+    padding-top:50px;
+}
+.info-container{
+    width: 100%;
+    margin: auto;
+    padding-top:50px;
+    text-align: center;
+
+}
+.info-container-active{
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+
+}
+.info-img {
+    background-color: aqua;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+.card-info-section{
+    display: flex;
+    align-items: center;
+    width:90%;
+    margin: auto;
+    gap:20px;
+
+}
+.card-info-section .activeinfo{
+    display: flex;
+    width:90%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:40px;
+    margin: auto;
+}
+.trainer-card{
+    color: #ffffff;
+   /* padding-top: 50px; */
+   background:linear-gradient(to right,rgba(66, 181, 254, 1),rgba(172, 182, 229, 1));
+   height:150px;
+   width: 50%;
+   display: flex;
+   align-items: center;
+   gap:50px;
+   border-radius:10px;
+}
+.leftside-trainer-card{
+    float: left;
+    padding-left:10%;
+}
+.leaner-card{
+    /* padding-top: 50px; */
+    color: #ffffff;
+    background:linear-gradient(to right,rgba(66, 181, 254, 1),rgba(172, 182, 229, 1));
+    height:150px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap:50px;
+    border-radius:10px;
+ }
+ .leftside-leaner-card{
+     float: left;
+     padding-left:10%;
+ }
+ .payment-section{
+    width:350px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left:450px;
+    margin-top:50px;
+    font-size: 20px;
+    border:1px solid #ffffff;
+    border-radius:10px;
+    box-shadow: 0px 0px 5px #dcd8d8;
+}
+.payment-section-active{
+     width:350px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* margin-left:700px; */
+    margin-top:50px;
+    font-size: 20px;
+    border:1px solid #ffffff;
+    border-radius:10px;
+    box-shadow: 0px 0px 5px #dcd8d8;
+    margin-left:35%;
+}
+.payment-icon{
+    background-color: white;
+    border: 1px solid  rgb(252, 250, 250) ;
+    color:rgb(3, 207, 252);
+    border-radius: 10px 0px 0px 10px;
+    width: 15%;
+}
+.payment-txt{
+    background-color:rgba(3, 206, 252, 0.233);
+    padding:10px 25px 10px 25px;
+    width: 85%;
+    border-radius: 0px 10px 10px 0px;
+}
+.tasks-summary{
+    background:linear-gradient(to right,rgba(66, 181, 254, 1),rgba(172, 182, 229, 1));
+    width:90%;
+    padding:70px;
+    margin:auto;
+    margin-top:50px;
+    border-radius: 10px;
+    position:relative;
+    display: flex;
+    flex-direction:row;
+    gap:100px;
+    color: #ffffff;
+}
+.tasks-summary-active{
+    background:linear-gradient(to right,rgba(66, 181, 254, 1),rgba(172, 182, 229, 1));
+    width:90%;
+    padding:70px;
+    margin:auto;
+    margin-top:50px;
+    border-radius: 10px;
+    position:relative;
+    display: flex;
+    flex-direction:row;
+    gap:100px;
+    color: #ffffff;
+}
+.tasks-txt{
+    text-align:left;
+}
+.tasks-icon{
+    position: absolute;
+    bottom:110px;
+    right:30px;
+    font-size:25px;
+}
+.tasks-progress{
+    display: flex;
+    flex-direction:row;
+    gap:100px;
+    width:80%;
+}
+.progress-section{
+    width:100%;
+    height:10px;
+    background-color:rgba(185, 187, 187, 0.585);
+    border-radius: 10px;
+}
+.progress-container{
+    background-color: rgb(246, 246, 246);
+    width:68%;
+    height:100%;
+    border-radius: 10px;
+}
+.tasks-progresss{
+    width:40%;
+    padding: 10px;
+    color:#d3cfcf;
+}
+.tasks-h3{
+    color:#bfc3c3;
+}
+.info-image-section{
+    padding-top:50px;
+    position: relative;
+    cursor: pointer;
+
+}
+.info-image-section h2{
+    position: absolute;
+    bottom:250px;
+    padding-left:25px;
+
+}
+.info-image-section img{
+    border: 3px solid #5c6160;
+    border-radius:70px;
+    width:70%;
+    height: 500px;
+    margin: auto;
+}
+.info-image-txt{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top:700px;
+    right:300px;
+    gap:400px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+.info-icon{
+    font-size:27px;
+    color: rgb(255, 254, 254);
+    display: flex;
+    align-items: center;
+    gap:10px;
+}

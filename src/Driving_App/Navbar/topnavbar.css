@@ -1,0 +1,50 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.topnavbars {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: white;
+    z-index: 50;
+    cursor: pointer;
+}
+.top-txt-section h3{
+   color: rgb(3, 207, 252);
+}
+.top-txt-section h4{
+    color: rgb(103, 104, 105);
+ }
+.topnavbar-section {
+    box-shadow: 2px 2px 5px rgb(125, 227, 227);
+}
+
+.img img {
+    border-radius: 50px;
+    height:40px;
+    width:40px;
+}
+
+.topnavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding-left:220px;
+    transition: all 0.5s;
+
+}
+.activetopnav{
+    padding-left:0px;
+
+}
+
+.topnavright {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+

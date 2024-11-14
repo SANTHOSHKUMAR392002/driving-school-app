@@ -1,0 +1,104 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.car-driver-container{
+    padding-top: 50px;
+    width:90%;
+    margin: auto;
+}
+.car-driver-title{
+    display: flex;
+    gap:450px;
+    align-items: center;
+}
+.car-driver-icon{
+    font-size:30px;
+    padding-left: 10px;
+    background-color: #ebe6e6;
+    width:50px;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.car-driver-contact{
+    padding-top: 50px;
+}
+.car-driver-image{
+    display: flex;
+    justify-content: center;
+}
+.car-driver-image img{
+   height:400px;
+   width:70%;
+}
+.car-driver-review{
+    display: flex;
+    justify-content: space-between;
+    width:95%;
+    margin: auto;
+    padding-top: 10px;
+    align-items: center;
+}
+.car-driver-review-icon{
+    font-size:30px;
+}
+.car-trainer-contact{
+    display: flex;
+    justify-content: center;
+    gap:300px;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+.car-trainer-calls-icons{
+    display: flex;
+    font-size:35px;
+    gap:50px;
+}
+.car-driver-details{
+    width: 10%;
+}
+.car-trainer-phone{
+    border:4px solid #5acd5c;
+    height:60px;
+    width:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.car-trainer-message{
+    border:4px solid #eeeb56;
+    height:60px;
+    width:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+.car-driver-info{
+    padding-top:40px;
+    padding-left:40px;
+    text-align: justify;
+}
+.car-driver-info2{
+    padding-top: 20px;
+}
+.car-driver-info2 li{
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.car-driver-info2 h1{
+    padding: 10px 0px;
+}
+.car-driver-info1 h1{
+    padding:20px 0px;
+}
+.car-driver-info1 li{
+    padding:20px 0px;
+}

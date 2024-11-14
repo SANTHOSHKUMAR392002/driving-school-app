@@ -1,0 +1,48 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.learn-container{
+    padding-top: 50px;
+    margin: auto;
+    width:90%;
+}
+.learn-section{
+    padding-top: 50px;
+}
+.learn-cardi{
+    display: flex;
+    gap:50px;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+
+}
+.learn-card-section{
+    box-shadow: 0px 0px 10px #c7c9ca;
+    width: 250px;
+    border-radius: 20px;
+}
+.learn-card-icon{
+    color: white;
+    height:200px;
+    width:250px;
+    border: 2px solid rgb(3, 207, 252);
+    background-color:rgb(3, 207, 252);
+    border-radius:20px 20px 0px 0px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size:100px;
+}
+.learn-card-txt{
+    height:90px;
+    width:250px;
+    border: 1px solid  white;
+    border-radius:0px 0px 10px 10px;
+    background-color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}

@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+.applyleave-body{
+    padding-top: 50px;
+    background-color:rgb(255, 70, 70);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.applyleave-location-drive{
+    border-radius: 50px 50px 0px 0px;
+    background-color: white;
+    height:315px;
+    width: 100%;
+}
+.applyleave-cancel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    position: relative;
+    top:100px;
+
+}
+.applyleave-time{
+    font-size:20px;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    align-items: center;
+}
+.applyleave-location-section{
+    padding-top:177px;
+}
+.applyleave-button{
+    display: flex;
+    justify-content: center;
+    padding-top:100px;
+}
+.applyleave-button button{
+    font-size: 20px ;
+    padding:20px 30px;
+    border-radius: 10px;
+    background-color:rgb(3, 207, 252);
+    border:1px solid rgb(3, 207, 252);
+}
